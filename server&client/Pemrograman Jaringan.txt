@@ -1,0 +1,62 @@
+Pemrograman Jaringan
+
+Microsoft Windows [Version 10.0.26100.6584]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Bariroh>cd "Downloads/server^&client"
+The system cannot find the path specified.
+
+C:\Users\Bariroh>cd "Downloads/server&client"
+
+C:\Users\Bariroh\Downloads\server&client>python server_multithread.py
+Traceback (most recent call last):
+  File "C:\Users\Bariroh\Downloads\server&client\server_multithread.py", line 32, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\Bariroh\Downloads\server&client\server_multithread.py", line 21, in main
+    server.bind((HOST, PORT))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^
+OSError: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
+
+C:\Users\Bariroh\Downloads\server&client>python server_multithread.py
+[SERVER MULTITHREAD] Menunggu koneksi di 127.0.0.1:5000
+[TERHUBUNG] Client dari ('127.0.0.1', 49293)
+[AKTIF CLIENT] 1
+[('127.0.0.1', 49293)] >> Halo dari client 2
+[TERHUBUNG] Client dari ('127.0.0.1', 49291)
+[PUTUS] Client ('127.0.0.1', 49293)
+[AKTIF CLIENT] 2
+[('127.0.0.1', 49291)] >> Halo dari client 1
+[TERHUBUNG] Client dari ('127.0.0.1', 49292)
+[AKTIF CLIENT] 2
+[PUTUS] Client ('127.0.0.1', 49291)
+[('127.0.0.1', 49292)] >> Halo dari client 0
+[TERHUBUNG] Client dari ('127.0.0.1', 49294)
+[AKTIF CLIENT] 2
+[('127.0.0.1', 49294)] >> Halo dari client 3
+[TERHUBUNG] Client dari ('127.0.0.1', 49295)
+[PUTUS] Client ('127.0.0.1', 49292)
+[AKTIF CLIENT] 3
+[PUTUS] Client ('127.0.0.1', 49294)
+[('127.0.0.1', 49295)] >> Halo dari client 4
+[TERHUBUNG] Client dari ('127.0.0.1', 49296)
+[AKTIF CLIENT] 2
+[('127.0.0.1', 49296)] >> Halo dari client 5
+[TERHUBUNG] Client dari ('127.0.0.1', 49297)
+[AKTIF CLIENT] 3
+[PUTUS] Client ('127.0.0.1', 49296)
+[('127.0.0.1', 49297)] >> Halo dari client 6
+[PUTUS] Client ('127.0.0.1', 49295)
+[TERHUBUNG] Client dari ('127.0.0.1', 49298)
+[AKTIF CLIENT] 2
+[('127.0.0.1', 49298)] >> Halo dari client 7
+[PUTUS] Client ('127.0.0.1', 49298)
+[PUTUS] Client ('127.0.0.1', 49297)
+[AKTIF CLIENT] 3
+[TERHUBUNG] Client dari ('127.0.0.1', 49300)
+[('127.0.0.1', 49300)] >> Halo dari client 9
+[TERHUBUNG] Client dari ('127.0.0.1', 49299)
+[AKTIF CLIENT] 2
+[('127.0.0.1', 49299)] >> Halo dari client 8
+[PUTUS] Client ('127.0.0.1', 49300)
+[PUTUS] Client ('127.0.0.1', 49299)

@@ -1,0 +1,39 @@
+singlethread 2
+
+Microsoft Windows [Version 10.0.26100.6584]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Bariroh>cd "Downloads/server&client"
+
+C:\Users\Bariroh\Downloads\server&client>python server_singlethread.py
+[SERVER SINGLETHREAD] Menunggu koneksi di 127.0.0.1:5001
+[TERHUBUNG] Client dari ('127.0.0.1', 58822)
+[('127.0.0.1', 58822)] >> Halo dari client 0
+[PUTUS] Client ('127.0.0.1', 58822)
+[TERHUBUNG] Client dari ('127.0.0.1', 58823)
+[('127.0.0.1', 58823)] >> Halo dari client 1
+[PUTUS] Client ('127.0.0.1', 58823)
+[TERHUBUNG] Client dari ('127.0.0.1', 58824)
+[('127.0.0.1', 58824)] >> Halo dari client 2
+[PUTUS] Client ('127.0.0.1', 58824)
+[TERHUBUNG] Client dari ('127.0.0.1', 58825)
+[('127.0.0.1', 58825)] >> Halo dari client 3
+[PUTUS] Client ('127.0.0.1', 58825)
+[TERHUBUNG] Client dari ('127.0.0.1', 58826)
+[('127.0.0.1', 58826)] >> Halo dari client 4
+[PUTUS] Client ('127.0.0.1', 58826)
+[TERHUBUNG] Client dari ('127.0.0.1', 58827)
+[('127.0.0.1', 58827)] >> Halo dari client 5
+[PUTUS] Client ('127.0.0.1', 58827)
+[TERHUBUNG] Client dari ('127.0.0.1', 58828)
+[('127.0.0.1', 58828)] >> Halo dari client 6
+[PUTUS] Client ('127.0.0.1', 58828)
+[TERHUBUNG] Client dari ('127.0.0.1', 58829)
+[('127.0.0.1', 58829)] >> Halo dari client 7
+[PUTUS] Client ('127.0.0.1', 58829)
+[TERHUBUNG] Client dari ('127.0.0.1', 58830)
+[('127.0.0.1', 58830)] >> Halo dari client 8
+[PUTUS] Client ('127.0.0.1', 58830)
+[TERHUBUNG] Client dari ('127.0.0.1', 58831)
+[('127.0.0.1', 58831)] >> Halo dari client 9
+[PUTUS] Client ('127.0.0.1', 58831)

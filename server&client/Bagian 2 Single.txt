@@ -1,0 +1,21 @@
+Bagian 2 Single
+
+Microsoft Windows [Version 10.0.26100.6584]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Bariroh>cd "Downloads/server&client"
+
+C:\Users\Bariroh\Downloads\server&client>python client_singlethread.py
+[Client 0] Balasan: Pesan diterima: Halo dari client 0
+[Client 1] Balasan: Pesan diterima: Halo dari client 1
+[Client 2] Balasan: Pesan diterima: Halo dari client 2
+[Client 3] Balasan: Pesan diterima: Halo dari client 3
+[Client 4] Balasan: Pesan diterima: Halo dari client 4
+[Client 5] Balasan: Pesan diterima: Halo dari client 5
+[Client 6] Balasan: Pesan diterima: Halo dari client 6
+[Client 7] Balasan: Pesan diterima: Halo dari client 7
+[Client 8] Balasan: Pesan diterima: Halo dari client 8
+[Client 9] Balasan: Pesan diterima: Halo dari client 9
+Selesai semua request dalam 0.02 detik
+
+C:\Users\Bariroh\Downloads\server&client>
